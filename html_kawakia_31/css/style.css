@@ -1,0 +1,259 @@
+/* ここから下に記載していく */
+.top {
+	display: flex;
+}
+.title1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	color: #fff;
+	font-size: x-large;
+	line-height: 1;
+	text-align: center;
+    font-weight: bold;
+}
+.saitonailink {
+    display: flex; 
+	justify-content: right;   
+}
+.item {
+    padding: 50px;
+}
+.about {
+	text-align: center;
+}
+.about_title {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #ffd61a;
+	font-weight: bold;
+	font-size: 24px;
+}
+.about_sub_title {
+	padding-bottom: 60px;
+	font-size: 18px;
+}
+.about_contents1 {
+	padding-bottom: 40px;
+}
+.about_contents2 {
+	padding-bottom: 80px;
+}
+.about_image {
+	display: flex;
+}
+.course {
+	text-align: center;
+}
+.course_title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.course_contens1 {
+	padding-bottom: 60px;
+	
+} 
+.course1_title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 120px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+}
+.course1_contents1 {
+	padding-bottom: 120px;
+	padding-left: 50px;
+}
+.course1 {
+	background-color: #fafafa;
+	display: flex;
+}
+.course1_image {
+	width: 600px; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+.right {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+.course2_title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+.course2_contens1 {
+	padding-bottom: 120px;
+	padding-right: 50px;
+	width: 600px;
+}
+.course2 {
+	background-color: #fafafa;
+	display: flex;
+	justify-content: flex-end;
+}
+.course2_image {
+	width: 600px; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+.course3_title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 120px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+}
+.course3_contens1 {
+	padding-bottom: 120px;
+	padding-left: 50px;
+}
+.course3 {
+	background-color: #fafafa;
+	display: flex;
+}
+.course3_image {
+	width: 600px; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+.news{
+	text-align: center;
+}
+.news_title {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #ffd61a;
+	font-weight: bold;
+	font-size: 24px;
+}
+.news_sub_title {
+	padding-bottom: 60px;
+	font-size: 18px;
+}
+.kosuge {
+	padding-left: 30px;
+}
+.day {
+	padding-top: 30px;
+	padding-bottom: 24px;
+}
+.news_contents {
+	padding-bottom: 60px;
+	width: 300px;
+}
+.kakunews {
+	display: flex;
+	justify-content: center;
+}
+.access {
+	background-color: #fafafa;
+	text-align: center;
+}
+.access_title {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.access_sub_title {
+	padding-bottom: 60px;
+	font-size: 18px;
+}
+.access_contents {
+	padding-bottom: 30px;
+}
+.access_contents1 {
+	padding-top: 60px;
+}
+.contact {
+	text-align: center;
+}
+.contact_title {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.contact_sub_title {
+	padding-bottom: 60px;
+}
+.contact_contents1 {
+	padding-bottom: 30px;
+}
+.contact_contents2 {
+	padding-bottom: 70px;
+}
+.footer {
+	background-color: #707070;
+	color: aliceblue;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.form_sample {
+	 width: 100%;
+	 display: flex;
+	 align-items: center;
+	 padding-left: 16px;
+	 padding-right: 16px;
+	 padding-bottom: 16px;
+	 justify-content: center;
+}
+ 
+.form-radio {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	justify-content: center;
+}
+.radio-label {
+	width: 100%;
+	max-width: 300px;
+	margin-left: 40px;
+}
+.form_label {
+	width: 100%;
+	max-width: 240px;
+}
+.form-input {
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-left: 40px;
+	height: 50px;
+	width: 100%;
+	max-width: 300px;
+}
+.form-input2 {
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-left: 40px;
+	height: 150px;
+	width: 100%;
+	max-width: 300px;
+}
+.btn {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	background-color: #ffd61a;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	border: none;
+	padding: 20px 0;
+	margin-bottom: 140px;
+}
