@@ -1,6 +1,7 @@
 /* ここから下に記載していく */
 .top {
 	display: flex;
+	padding: 10px;
 }
 .title1 {
 	position: absolute;
@@ -256,4 +257,7 @@
 	border: none;
 	padding: 20px 0;
 	margin-bottom: 140px;
+}
+.btn:hover{
+   background-color:red;
 }
